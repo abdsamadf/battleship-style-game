@@ -1,5 +1,21 @@
-# Created by https://www.gitignore.io/api/java,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=java,visualstudiocode
+
+# Created by https://www.gitignore.io/api/git,java,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=git,java,visualstudiocode
+
+### Git ###
+# Created by git for backups. To disable backups in Git:
+# $ git config --global mergetool.keepBackup false
+*.orig
+
+# Created by git when using merge tools for conflicts
+*.BACKUP.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTE.*
+*_BACKUP_*.txt
+*_BASE_*.txt
+*_LOCAL_*.txt
+*_REMOTE_*.txt
 
 ### Java ###
 # Compiled class file
@@ -37,4 +53,4 @@ hs_err_pid*
 # Ignore all local history of files
 .history
 
-# End of https://www.gitignore.io/api/java,visualstudiocode
+# End of https://www.gitignore.io/api/git,java,visualstudiocode
